@@ -1,0 +1,14 @@
+en
+conf t
+hostname Blue2
+int e0/0
+ip addr 192.168.3.1 255.255.255.0
+no shut
+
+int lo 0
+ip addr 3.3.3.3 255.255.255.0
+no shut
+
+router ospf 1
+network 192.168.3.0 0.0.0.255 area 0
+network 3.3.3.3 0.0.0.0 area 0
