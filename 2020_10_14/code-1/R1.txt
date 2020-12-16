@@ -1,0 +1,13 @@
+en
+conf t
+ipv6 unicast-routing
+ipv6 route 2001:1::/64 2012::1
+int lo 0
+ipv6 addr 2001:2::1/64
+no shut
+int e0/0
+ipv6 addr 2012::2/64
+no shut
+do show ipv6 int brief
+
+---
