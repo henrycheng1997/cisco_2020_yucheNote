@@ -1,0 +1,10 @@
+en
+conf t
+hostname R3
+int lo 0
+ip addr 3.3.3.3 255.255.255.0
+no shut
+router rip
+network 3.3.3.0
+version 2
+no auto-summary
