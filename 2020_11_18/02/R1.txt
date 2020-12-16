@@ -1,0 +1,10 @@
+en
+conf t
+hostname R1
+int e0/0
+ip addr 172.16.13.1 255.255.255.0
+no shut
+
+router eigrp 1
+network 172.16.13.0 0.0.0.255
+no auto-summary
