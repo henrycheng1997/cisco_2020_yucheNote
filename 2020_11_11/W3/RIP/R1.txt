@@ -1,0 +1,14 @@
+en
+conf t
+hostname R1
+int e0/0
+ip addr 12.1.1.1 255.255.255.0
+no shut
+int lo 0
+ip addr 192.168.1.1 255.255.255.0
+no shut
+router rip
+version 2
+network 192.168.1.0
+no auto-summary
+
