@@ -1,0 +1,5 @@
+en
+conf t
+host R3
+int e0/0
+ip addr 192.168.1.2 255.255.255.0
