@@ -11,10 +11,6 @@
 # linux 時間設定
  - date -s 20180120
 
-# webex
-- 帳號:henrycheng1997@gmail.com
-- 密碼:qc8Zu3_rLrFkeXk
-
 # VMware
 
 
