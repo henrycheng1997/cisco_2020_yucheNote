@@ -1,8 +1,10 @@
 ## router rip 複習
-- router rip
-- version 2
-- network 12.1.1.0
-- network 192.168.1.0
+```
+router rip
+version 2
+network 12.1.1.0
+network 192.168.1.0
+```
 ## 新增NAT 選擇 management
 - ![](./01.jpg)
 ## ssh連線設定router
